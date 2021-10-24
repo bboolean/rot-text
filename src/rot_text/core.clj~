@@ -1,0 +1,37 @@
+(ns rot-text.core
+  (:gen-class))
+
+(def morse-conversion-map
+  ["A"
+   "B"
+   "C"
+   "D"
+   "E"
+   "F"
+   "G"
+   "H"
+   "I"
+   "J"
+   "K"
+   "L"
+   "M"
+   "N"
+   "O"
+   "P"
+   "Q"
+   "R"
+   "S"
+   "T"
+   "U"
+   "V"
+   "W"
+   "X"
+   "Y"
+   "Z"])
+
+(keys morse-conversion-map)
+
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (println "Hello, World!"))
