@@ -1,29 +1,21 @@
 # rot-text
 
-FIXME: description
+A Ceasar cipher.
 
-## Installation
+## Run
 
-Download from http://example.com/FIXME.
+```
+# First argument is the amount of rotation (shift)--second argument is the text
 
-## Usage
+$ lein run 3 "So then, down the cobble stone path the rabbit made its course."
+VR WKHQ, GRZQ WKH FREEOH VWRQH SDWK WKH UDEELW PDGH LWV FRXUVH.
 
-FIXME: explanation
+$ lein run -3 "VR WKHQ, GRZQ WKH FREEOH VWRQH SDWK WKH UDEELW PDGH LWV FRXUVH."
+SO THEN, DOWN THE COBBLE STONE PATH THE RABBIT MADE ITS COURSE.
+```
 
-    $ java -jar rot-text-0.1.0-standalone.jar [args]
+## Tests
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```
+$ lein test
+```
