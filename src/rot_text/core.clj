@@ -42,6 +42,7 @@
       (get letters-to-numbers $)
       (+ n $)
       (rem $ 26)
+      (if (< $ 0) (+ $ 26) $)
       (get numbers-to-letters $))
     l))
 

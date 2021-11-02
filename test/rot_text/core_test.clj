@@ -18,4 +18,9 @@
   (testing "rot-letter"
     (is (=
          "D"
-         (core/rot-letter 3 "A")))))
+         (core/rot-letter 3 "A")))
+    (is (=
+         "Z"
+         (core/rot-letter -1 "A")))))
+
+
